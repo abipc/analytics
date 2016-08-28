@@ -1,17 +1,19 @@
 #Analytics Service
 
-## Integration with a Hadoop Based store
+### Integration with a Hadoop Based store 
 
-## Click Stream Data Analytics
+### Click Stream Data Analytics
 
-## Event Aggregation per user per session
+### Event Aggregation per user per session
 
-## Provides data to recommendation service and search service to improve quality
+### Provides data to recommendation service and search service to improve quality
 
 ###Dependencies
 ######For versions checkout pom.xml
 
 Spring 
+
+Hadoop
 
 Maven
 

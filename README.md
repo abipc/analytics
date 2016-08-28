@@ -1,5 +1,7 @@
 #Analytics Service
 
+Spring Maven Java based RESTful Analytics Service
+
 ### Integration with a Hadoop Based store 
 
 ### Click Stream Data Analytics

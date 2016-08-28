@@ -1,31 +1,27 @@
+#Analytics Service
+
+## Integration with a Hadoop Based store
+
+## Click Stream Data Analytics
+
+## Event Aggregation per user per session
+
+## Provides data to recommendation service and search service to improve quality
+
 ###Dependencies
 ######For versions checkout pom.xml
 
 Spring 
 
-Joda
-
 Maven
 
 Java
 
-JSTL
-
-Servlet API
-
 JUnit
-
-MongoDB
 
 Jackson
 
-Log4J and JCL 
-
 Apache HTTP Client
-
-Javax Mail
-
-Java Melody
 
 
 
@@ -91,15 +87,6 @@ echo $JAVA_HOME
 ###How to import project in eclipse
 
 File -> Import -> Maven -> Existing Maven Projects
-
-Browse & select trackntracedataimporter directory
-
-
-####MongoDB Index
-
-db.<dbName>.createIndex( { registration_number : 1 , loc : 1, vendor_timestamp:1 }, {unique: true})
-
-db.<dbName>.createIndex( {loc : "2dsphere"})
 
 
 
